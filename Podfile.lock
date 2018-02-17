@@ -1,0 +1,26 @@
+PODS:
+  - EasyPeasy (1.4.2)
+  - Hero (0.3.6)
+  - Kanna (2.1.1)
+  - Realm (2.8.3):
+    - Realm/Headers (= 2.8.3)
+  - Realm/Headers (2.8.3)
+  - RealmSwift (2.8.3):
+    - Realm (= 2.8.3)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - Hero
+  - Kanna (~> 2.1.0)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  EasyPeasy: 50e7130b61f495ce105796e438d4136e2c8d2cc0
+  Hero: d3c6f4dd80cdcdbb339be64e57ae3b5c3ab9938c
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  Realm: 3601ef091c8c499a31101d8563b991e75546cdce
+  RealmSwift: 8183818515471b01a99abdd2970f8e4fd52b6f4a
+
+PODFILE CHECKSUM: 33d6eb4b5fb87a3e05282ccebee861b052c70ca2
+
+COCOAPODS: 1.2.1

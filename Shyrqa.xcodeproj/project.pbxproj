@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048636D62B8BB5A331E990FF /* Pods_Shyrqa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4BB687CF3E085100777BFA /* Pods_Shyrqa.framework */; };
+		5D11ED041F1F4E7A00DB77D3 /* RealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D11ED031F1F4E7A00DB77D3 /* RealmDB.swift */; };
+		5D31CC371F25F3D000113603 /* FavoriteSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D31CC361F25F3D000113603 /* FavoriteSongsViewController.swift */; };
+		5D31CC391F26144700113603 /* FavoriteSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D31CC381F26144700113603 /* FavoriteSongTableViewCell.swift */; };
+		5D3DEC651F2B220500DDFEBF /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 5D3DEC641F2B220500DDFEBF /* default.realm */; };
+		5D7B8E251F1E523D0043D9E8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B8E241F1E523D0043D9E8 /* TableViewCell.swift */; };
+		5D8B7E591F2B367A0028BCD9 /* FilteredSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B7E581F2B367A0028BCD9 /* FilteredSongs.swift */; };
+		5D8B7E5D1F2DF66F0028BCD9 /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B7E5C1F2DF66F0028BCD9 /* ScaleSegue.swift */; };
+		5DC8785E1F1CEAD1001218A8 /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8785D1F1CEAD1001218A8 /* LyricsViewController.swift */; };
+		5DD7878E1F1B4E8F00872962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7878D1F1B4E8F00872962 /* AppDelegate.swift */; };
+		5DD787901F1B4E8F00872962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7878F1F1B4E8F00872962 /* ViewController.swift */; };
+		5DD787931F1B4E8F00872962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD787911F1B4E8F00872962 /* Main.storyboard */; };
+		5DD787981F1B4E8F00872962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD787971F1B4E8F00872962 /* Assets.xcassets */; };
+		5DD7879B1F1B4E8F00872962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD787991F1B4E8F00872962 /* LaunchScreen.storyboard */; };
+		5DD787A41F1B4EC100872962 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD787A31F1B4EC100872962 /* Song.swift */; };
+		5DEE55461F21CA4900D777EB /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEE55451F21CA4900D777EB /* Formatter.swift */; };
+		5DEE55481F21CD9800D777EB /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEE55471F21CD9800D777EB /* Downloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21CF85905B9BCBF23BECE9B0 /* Pods-Shyrqa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shyrqa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shyrqa/Pods-Shyrqa.release.xcconfig"; sourceTree = "<group>"; };
+		4C4BB687CF3E085100777BFA /* Pods_Shyrqa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shyrqa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D11ED031F1F4E7A00DB77D3 /* RealmDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDB.swift; sourceTree = "<group>"; };
+		5D31CC361F25F3D000113603 /* FavoriteSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteSongsViewController.swift; sourceTree = "<group>"; };
+		5D31CC381F26144700113603 /* FavoriteSongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteSongTableViewCell.swift; sourceTree = "<group>"; };
+		5D3DEC641F2B220500DDFEBF /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
+		5D7B8E241F1E523D0043D9E8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5D8B7E581F2B367A0028BCD9 /* FilteredSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredSongs.swift; sourceTree = "<group>"; };
+		5D8B7E5C1F2DF66F0028BCD9 /* ScaleSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
+		5DC8785D1F1CEAD1001218A8 /* LyricsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
+		5DD7878A1F1B4E8F00872962 /* Shyrqa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shyrqa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD7878D1F1B4E8F00872962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DD7878F1F1B4E8F00872962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DD787921F1B4E8F00872962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DD787971F1B4E8F00872962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DD7879A1F1B4E8F00872962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DD7879C1F1B4E8F00872962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD787A31F1B4EC100872962 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		5DEE55451F21CA4900D777EB /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		5DEE55471F21CD9800D777EB /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		9BD7CB16E031D5C2727C884F /* Pods-Shyrqa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shyrqa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shyrqa/Pods-Shyrqa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DD787871F1B4E8F00872962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048636D62B8BB5A331E990FF /* Pods_Shyrqa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37C63CD446B53EA6E2564B67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD7CB16E031D5C2727C884F /* Pods-Shyrqa.debug.xcconfig */,
+				21CF85905B9BCBF23BECE9B0 /* Pods-Shyrqa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D7B8E211F1E05710043D9E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7878F1F1B4E8F00872962 /* ViewController.swift */,
+				5DC8785D1F1CEAD1001218A8 /* LyricsViewController.swift */,
+				5D31CC361F25F3D000113603 /* FavoriteSongsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5D7B8E221F1E05770043D9E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D7B8E241F1E523D0043D9E8 /* TableViewCell.swift */,
+				5D31CC381F26144700113603 /* FavoriteSongTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5D7B8E231F1E05820043D9E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DD787A31F1B4EC100872962 /* Song.swift */,
+				5D11ED031F1F4E7A00DB77D3 /* RealmDB.swift */,
+				5DEE55451F21CA4900D777EB /* Formatter.swift */,
+				5DEE55471F21CD9800D777EB /* Downloader.swift */,
+				5D8B7E581F2B367A0028BCD9 /* FilteredSongs.swift */,
+				5D8B7E5C1F2DF66F0028BCD9 /* ScaleSegue.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5DD787811F1B4E8F00872962 = {
+			isa = PBXGroup;
+			children = (
+				5DD7878C1F1B4E8F00872962 /* Shyrqa */,
+				5DD7878B1F1B4E8F00872962 /* Products */,
+				37C63CD446B53EA6E2564B67 /* Pods */,
+				8437EFF25D7B67226AE2B357 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DD7878B1F1B4E8F00872962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7878A1F1B4E8F00872962 /* Shyrqa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD7878C1F1B4E8F00872962 /* Shyrqa */ = {
+			isa = PBXGroup;
+			children = (
+				5D7B8E231F1E05820043D9E8 /* Model */,
+				5D7B8E221F1E05770043D9E8 /* View */,
+				5D7B8E211F1E05710043D9E8 /* Controller */,
+				5DD787911F1B4E8F00872962 /* Main.storyboard */,
+				5DD787A21F1B4E9F00872962 /* Supporting Files */,
+			);
+			path = Shyrqa;
+			sourceTree = "<group>";
+		};
+		5DD787A21F1B4E9F00872962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DD7878D1F1B4E8F00872962 /* AppDelegate.swift */,
+				5DD787971F1B4E8F00872962 /* Assets.xcassets */,
+				5DD787991F1B4E8F00872962 /* LaunchScreen.storyboard */,
+				5DD7879C1F1B4E8F00872962 /* Info.plist */,
+				5D3DEC641F2B220500DDFEBF /* default.realm */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8437EFF25D7B67226AE2B357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C4BB687CF3E085100777BFA /* Pods_Shyrqa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DD787891F1B4E8F00872962 /* Shyrqa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD7879F1F1B4E8F00872962 /* Build configuration list for PBXNativeTarget "Shyrqa" */;
+			buildPhases = (
+				4E1839E4F5311BE74CC78D4D /* [CP] Check Pods Manifest.lock */,
+				5DD787861F1B4E8F00872962 /* Sources */,
+				5DD787871F1B4E8F00872962 /* Frameworks */,
+				5DD787881F1B4E8F00872962 /* Resources */,
+				283F4C1E43AF89A2BE341F84 /* [CP] Embed Pods Frameworks */,
+				4C2343255206F56BB1F49C95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shyrqa;
+			productName = Shyrqa;
+			productReference = 5DD7878A1F1B4E8F00872962 /* Shyrqa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DD787821F1B4E8F00872962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Алпамыс";
+				TargetAttributes = {
+					5DD787891F1B4E8F00872962 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AB65P3C5XF;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5DD787851F1B4E8F00872962 /* Build configuration list for PBXProject "Shyrqa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DD787811F1B4E8F00872962;
+			productRefGroup = 5DD7878B1F1B4E8F00872962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD787891F1B4E8F00872962 /* Shyrqa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD787881F1B4E8F00872962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD7879B1F1B4E8F00872962 /* LaunchScreen.storyboard in Resources */,
+				5D3DEC651F2B220500DDFEBF /* default.realm in Resources */,
+				5DD787981F1B4E8F00872962 /* Assets.xcassets in Resources */,
+				5DD787931F1B4E8F00872962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		283F4C1E43AF89A2BE341F84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shyrqa/Pods-Shyrqa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2343255206F56BB1F49C95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shyrqa/Pods-Shyrqa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1839E4F5311BE74CC78D4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD787861F1B4E8F00872962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7B8E251F1E523D0043D9E8 /* TableViewCell.swift in Sources */,
+				5D11ED041F1F4E7A00DB77D3 /* RealmDB.swift in Sources */,
+				5D31CC391F26144700113603 /* FavoriteSongTableViewCell.swift in Sources */,
+				5DEE55481F21CD9800D777EB /* Downloader.swift in Sources */,
+				5D31CC371F25F3D000113603 /* FavoriteSongsViewController.swift in Sources */,
+				5DD787901F1B4E8F00872962 /* ViewController.swift in Sources */,
+				5DEE55461F21CA4900D777EB /* Formatter.swift in Sources */,
+				5DC8785E1F1CEAD1001218A8 /* LyricsViewController.swift in Sources */,
+				5D8B7E5D1F2DF66F0028BCD9 /* ScaleSegue.swift in Sources */,
+				5DD787A41F1B4EC100872962 /* Song.swift in Sources */,
+				5DD7878E1F1B4E8F00872962 /* AppDelegate.swift in Sources */,
+				5D8B7E591F2B367A0028BCD9 /* FilteredSongs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DD787911F1B4E8F00872962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD787921F1B4E8F00872962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DD787991F1B4E8F00872962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD7879A1F1B4E8F00872962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DD7879D1F1B4E8F00872962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DD7879E1F1B4E8F00872962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DD787A01F1B4E8F00872962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD7CB16E031D5C2727C884F /* Pods-Shyrqa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				INFOPLIST_FILE = Shyrqa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alpamys.Shyrqa2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3ebebfd5-e07f-4e46-a97b-090f103305e7";
+				PROVISIONING_PROFILE_SPECIFIER = AppStoreShyrqa;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5DD787A11F1B4E8F00872962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CF85905B9BCBF23BECE9B0 /* Pods-Shyrqa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				INFOPLIST_FILE = Shyrqa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alpamys.Shyrqa2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3ebebfd5-e07f-4e46-a97b-090f103305e7";
+				PROVISIONING_PROFILE_SPECIFIER = AppStoreShyrqa;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DD787851F1B4E8F00872962 /* Build configuration list for PBXProject "Shyrqa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD7879D1F1B4E8F00872962 /* Debug */,
+				5DD7879E1F1B4E8F00872962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD7879F1F1B4E8F00872962 /* Build configuration list for PBXNativeTarget "Shyrqa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD787A01F1B4E8F00872962 /* Debug */,
+				5DD787A11F1B4E8F00872962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DD787821F1B4E8F00872962 /* Project object */;
+}
